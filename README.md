@@ -13,7 +13,7 @@ Each mesh board included in the CYBT-213043-MESH kit features following:
 * Bluetooth 5.0 with SIG MESH Qualified Module (CYBT-213043-02)
 * USB connector for power, programming and USB-UART bridge
 * CYBT-213043-02 certified module based on CYW20819
-* Sensors - Thermistor, Ambient Light Sensor (ALS) and PIR motion sensor 
+* Sensors - Thermistor, Ambient Light Sensor (ALS) and PIR motion sensor
 * RGB LED
 * User switch
 * Power measurement jumper
