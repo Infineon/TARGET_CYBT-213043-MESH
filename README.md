@@ -29,6 +29,9 @@ CYBT-213043-MESH kit is supported in ModusToolbox IDE 2.0 with BT SDK 2.0 or lat
 
 Max UART baud rate is 1M. Use baud rate of 115200 for Client Control.
 
+External 32 kHz LPO is used by default. To operate without external LPO, set USE_32K_EXTERNAL_LPO=0 on
+make command line or edit default value in CYBT-213043-MESH.mk.
+
 ### Kit Contents
 
 * 4x Mesh evaluation boards - Inclusion of four board allows to evaluate a real mesh network with just one kit
