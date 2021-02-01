@@ -6,9 +6,8 @@ The EZ-BT Mesh Evaluation Kit (CYBT-213043-MESH) enables you to evaluate SIG Mes
 
 Each mesh board included in the CYBT-213043-MESH kit features following:
 
-* CYW20819-based dual-mode (BLE/BR/EDR) Bluetooth 5.0-compliant fully certified module (CYBT-213043-02)
+* CYW20819-based dual-mode (LE/BR/EDR) Bluetooth 5.0-compliant fully certified module (CYBT-213043-02)
 * 1MB External Serial Flash
-* Bluetooth Low Energy (BLE), Bluetooth Basic Rate (BR) and Enhanced Data Rate (EDR)
 * FCC, ISED, MIC, and CE Certified Module on board (CYBT-213043-02)
 * Bluetooth 5.0 with SIG MESH Qualified Module (CYBT-213043-02)
 * USB connector for power, programming and USB-UART bridge
@@ -23,14 +22,13 @@ Each mesh board included in the CYBT-213043-MESH kit features following:
 
 ### Additional Information
 
-The CYBT-213043-02 module utilizes the Cypress CYW20819 silicon device. CYW20819 is an ultra-low-power (ULP) and highly integrated dual-mode Bluetooth 5.0 qualified device. The CYW20819’s low-power and integration capability addresses the requirements of both battery- and wall-powered applications that require BLE mesh, such as sensor nodes, locks, lighting, blind controllers, asset tracking, and many more Smart Home applications.
+The CYBT-213043-02 module utilizes the Cypress CYW20819 silicon device. CYW20819 is an ultra-low-power (ULP) and highly integrated dual-mode Bluetooth 5.0 qualified device. The CYW20819’s low-power and integration capability addresses the requirements of both battery- and wall-powered applications that require Bluetooth LE mesh, such as sensor nodes, locks, lighting, blind controllers, asset tracking, and many more Smart Home applications.
 
 CYBT-213043-MESH kit is supported in ModusToolbox IDE 2.0 with BT SDK 2.0 or later. Cypress provides a number of code examples and snip codes for mesh functionality on GitHub. These code examples that allow you to implement real-life mesh application such as a dimmable light (bulb), dimmer and a thermometer and likes just in few minutes. These code examples can be searched and imported within ModusToolbox IDE.
 
 Max UART baud rate is 1M. Use baud rate of 115200 for Client Control.
 
-External 32 kHz LPO is used by default. To operate without external LPO, set USE_32K_EXTERNAL_LPO=0 on
-make command line or edit default value in CYBT-213043-MESH.mk.
+External 32 kHz LPO is used by default. To operate without external LPO, set USE\_32K\_EXTERNAL\_LPO=0 on the make command line or edit the default value in CYBT-213043-MESH.mk.
 
 ### Kit Contents
 
