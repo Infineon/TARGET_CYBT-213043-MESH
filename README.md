@@ -36,4 +36,4 @@ External 32 kHz LPO is used by default. To operate without external LPO, set USE
 * 4x USB-A to micro-B cable
 * 1x Quick Start Guide
 
-For more information, see [CYBT-213043-MESH](http://www.cypress.com/CYBT-213043-MESH)
+For more information, see [CYBT-213043-MESH](https://www.infineon.com/cms/en/product/evaluation-boards/cybt-213043-mesh/)
